@@ -3,7 +3,7 @@
 gamemode survival @a
 worldborder set 1024 60
 # Modify your worldsize ^here^ (The first number is its size in a diameter)
-scoreboard players @a lives set 4
+scoreboard players set @a lives 4
 # Modify your starting life count ^here^
 effect clear @a
 effect give @a regeneration 60 1
