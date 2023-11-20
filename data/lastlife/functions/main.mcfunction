@@ -1,4 +1,4 @@
-# comment
+# Main function for the datapack
 
 gamemode spectator @a[team=defeated,gamemode=!spectator]
 scoreboard players remove @a[scores={hasDied=1..}] lives 1
@@ -12,8 +12,8 @@ execute as @a[scores={hasDied=1..,lives=1..}] at @a[gamemode=survival] run plays
 scoreboard players set @a[scores={hasDied=1..}] hasDied 0
 
 execute as @a[scores={refresh=1..}] run function lastlife:bc/refresh_colors
-execute as @a[scores={convert_life=1..}] run function lastlife:bc/orb_item_summon
-execute as @a[scores={useAllayEgg=1..}] run function lastlife:bc/orb_item_use
+execute as @a[scores={give_life=1..}] run function lastlife:bc/life_item_summon
+execute as @a[scores={mjbp=1..}] run function lastlife:bc/life_item_use
 execute as @a[nbt={Inventory:[{id:"minecraft:blaze_powder",Count:1b,Slot:-106b}]}] run function lastlife:bc/oh_blaze_powder
 
 function lastlife:mobs/creepers

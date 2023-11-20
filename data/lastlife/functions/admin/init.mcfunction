@@ -7,8 +7,8 @@ scoreboard objectives add kills playerKillCount
 scoreboard objectives add finalKills teamkill.red
 scoreboard objectives add refresh trigger
 scoreboard players enable @a refresh
-scoreboard objectives add useAllayEgg minecraft.used:minecraft.allay_spawn_egg
-scoreboard objectives add convert_life trigger
+scoreboard objectives add mjbp minecraft.picked_up:minecraft.mojang_banner_pattern
+scoreboard objectives add give_life trigger
 scoreboard players enable @a convert_life
 scoreboard objectives add craftChainBoots minecraft.crafted:minecraft.chainmail_boots
 scoreboard objectives add craftChainLeggings minecraft.crafted:minecraft.chainmail_leggings
@@ -25,4 +25,4 @@ team add redName
 team modify redName color red
 team add defeated
 team modify defeated prefix {"text":"✖ ","color":"red"}
-team modify defeated displayName {"text":"defeated","italic":true}
+team modify defeated displayName {"text":"Defeated","italic":true}
