@@ -13,6 +13,7 @@ execute at @s[scores={lives=3..}] run particle glow ~ ~1 ~ 1 1 1 0.01 40 normal 
 execute at @s[scores={lives=3..}] run playsound minecraft:entity.guardian.death player @a ~ ~ ~ 1 0.5
 
 execute as @s[scores={lives=3..}] at @s anchored eyes positioned ^ ^ ^3 run summon item ~ ~ ~ {CustomNameVisible:1b,CustomName:'{"text":"Soul Contract","color":"light_purple","italic":false}',Item:{id:"minecraft:mojang_banner_pattern",Count:1b,tag:{display:{Name:'{"text":"Soul Contract","italic":false}'},Enchantments:[{}]}}}
+execute as @s[scores={lives=3..}] at @s anchored eyes positioned ^ ^ ^3 run particle minecraft:end_rod ~ ~ ~ 0.05 0.05 0.05 0.05 20
 tellraw @s[scores={lives=3..}] ["",{"text":"You feel your energy drain as a ","color":"green"},{"text":"Soul Contract","color":"light_purple"},{"text":" is created right in front of your eyes.","color":"green"}]
 scoreboard players remove @s[scores={lives=3..}] lives 1
 
