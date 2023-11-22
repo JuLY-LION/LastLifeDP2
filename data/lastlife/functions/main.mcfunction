@@ -15,6 +15,7 @@ execute as @a[scores={refresh=1..}] run function lastlife:bc/refresh_colors
 execute as @a[scores={give_life=1..}] run function lastlife:bc/life_item_summon
 execute as @a[scores={mjbp=1..}] run function lastlife:bc/life_item_use
 execute as @a[nbt={Inventory:[{id:"minecraft:blaze_powder",Count:1b,Slot:-106b}]}] run function lastlife:bc/oh_blaze_powder
+execute as @a[scores={lives=1..3,aliveTime=40}] run function lastlife:bc/respawn_kit
 
 function lastlife:mobs/creepers
 # Remove ^this^ line to remove creeper health debuff.
