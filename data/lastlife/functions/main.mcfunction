@@ -11,7 +11,7 @@ execute at @a[scores={hasDied=1..,lives=0}] run function lastlife:bc/final_kill
 execute as @a[scores={hasDied=1..,lives=1}] at @a[gamemode=survival] run playsound minecraft:entity.guardian.hurt player @p ~ ~20 ~ 0.5 0.5 0.5
 execute at @a[scores={hasDied=1..}] run summon armor_stand ~ ~2 ~ {NoGravity:1b,Invulnerable:1b,Small:1b,Invisible:1b,Tags:["protectitems"],DisabledSlots:63,ArmorItems:[{id:"minecraft:iron_boots",Count:9b,tag:{RepairCost:1000,Unbreakable:0b,Damage:1000,Enchantments:[{id:"minecraft:thorns",lvl:6s},{id:"minecraft:binding_curse",lvl:1s}]}},{},{},{}]}
 
-execute at @e[tag=protectitems] run function lastlife:bc/death_items
+execute at @e[tag=protectitems] run function lastlife:bc/protect_items
 scoreboard players set @a[scores={hasDied=1..}] hasDied 0
 
 execute as @a[scores={refresh=1..}] run function lastlife:bc/refresh_colors
