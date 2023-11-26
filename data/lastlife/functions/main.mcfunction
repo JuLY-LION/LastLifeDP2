@@ -21,6 +21,7 @@ execute as @a[scores={lives=1..3,aliveTime=40}] run function lastlife:bc/respawn
 execute at @e[tag=safeitem,limit=1,sort=random] run particle composter ~ ~0.6 ~ 0.1 0.1 0.1 0 1 normal @a
 
 execute as @e[tag=protectitems] at @s run function lastlife:bc/protect_items
+execute as @e[tag=enchantarea,limit=1,sort=nearest] at @s run function lastlife:bc/enchant_area
 
 function lastlife:mobs/creepers
 # Remove ^this^ line to remove creeper health debuff.
