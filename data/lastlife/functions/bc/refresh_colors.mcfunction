@@ -1,6 +1,6 @@
 # comment
 
-function general:game/init
+function lastlife:admin/init
 
 team leave @a
 team join darkGreenName @a[scores={lives=4..}]
