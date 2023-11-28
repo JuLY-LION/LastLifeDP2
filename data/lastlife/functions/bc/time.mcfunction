@@ -15,8 +15,8 @@ execute if score minutesLeft variable matches 1 if score ticksLeft variable matc
 execute if score minutesLeft variable matches 1 if score ticksLeft variable matches 1190 as @a at @s run playsound minecraft:block.note_block.pling block @s ~ ~ ~ 1 2
 
 # execute if score minutesLeft variable matches 1 if score ticksLeft variable matches 0 as @a at @s run playsound minecraft:block.note_block.basedrum block @s ~ ~ ~ 1 2
-execute if score minutesLeft variable matches 0 if score ticksLeft variable matches 300 as @a at @s run playsound minecraft:block.note_block.basedrum block @s ~ ~ ~ 1 2
-execute if score minutesLeft variable matches 0 if score ticksLeft variable matches 240 as @a at @s run playsound minecraft:block.note_block.basedrum block @s ~ ~ ~ 1 2
-execute if score minutesLeft variable matches 0 if score ticksLeft variable matches 180 as @a at @s run playsound minecraft:block.note_block.basedrum block @s ~ ~ ~ 1 2
-execute if score minutesLeft variable matches 0 if score ticksLeft variable matches 120 as @a at @s run playsound minecraft:block.note_block.basedrum block @s ~ ~ ~ 1 2
-execute if score minutesLeft variable matches 0 if score ticksLeft variable matches 60 as @a at @s run playsound minecraft:block.note_block.basedrum block @s ~ ~ ~ 1 2
+execute if score minutesLeft variable matches 0 if score ticksLeft variable matches 300 as @a at @s run playsound minecraft:block.note_block.basedrum block @s ~ ~ ~ 0.5 2
+execute if score minutesLeft variable matches 0 if score ticksLeft variable matches 240 as @a at @s run playsound minecraft:block.note_block.basedrum block @s ~ ~ ~ 0.5 2
+execute if score minutesLeft variable matches 0 if score ticksLeft variable matches 180 as @a at @s run playsound minecraft:block.note_block.basedrum block @s ~ ~ ~ 0.5 2
+execute if score minutesLeft variable matches 0 if score ticksLeft variable matches 120 as @a at @s run playsound minecraft:block.note_block.basedrum block @s ~ ~ ~ 0.5 2
+execute if score minutesLeft variable matches 0 if score ticksLeft variable matches 60 as @a at @s run playsound minecraft:block.note_block.basedrum block @s ~ ~ ~ 0.5 2
