@@ -19,6 +19,7 @@ execute as @a[scores={mjbp=1..}] run function lastlife:bc/life_item_use
 execute as @a[nbt={Inventory:[{id:"minecraft:blaze_powder",Count:1b,Slot:-106b}]}] run function lastlife:bc/oh_blaze_powder
 execute as @a[scores={lives=1..3,aliveTime=40}] run function lastlife:bc/respawn_kit
 execute at @e[tag=safeitem,limit=1,sort=random] run particle composter ~ ~0.6 ~ 0.1 0.1 0.1 0 1 normal @a
+execute as @a[scores={admin=1..}] run function lastlife:trigger/admin_panel
 
 execute as @e[tag=protectitems] at @s run function lastlife:bc/protect_items
 execute as @e[tag=enchantarea,limit=1,sort=nearest] at @s run function lastlife:bc/enchant_area

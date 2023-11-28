@@ -16,6 +16,7 @@ scoreboard objectives add craftChainPlate minecraft.crafted:minecraft.chainmail_
 scoreboard objectives add craftChainHelmet minecraft.crafted:minecraft.chainmail_helmet
 scoreboard objectives add aliveTime minecraft.custom:minecraft.time_since_death
 scoreboard objectives add variable dummy "Dummy Variables"
+scoreboard objectives add admin trigger
 
 team add darkGreenName
 team modify darkGreenName color dark_green
