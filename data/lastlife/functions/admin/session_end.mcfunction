@@ -1,7 +1,11 @@
 # For when sessions end
 
+scoreboard players set activeSession variable 0
+
 effect give @a resistance 60 15 true
-effect give @a weakness 1 15 true
+effect give @a fire_resistance 3 3 true
+effect give @a water_breathing 3 3 true
+effect give @a weakness 3 3 true
 
 execute as @a[gamemode=survival] run playsound minecraft:block.beacon.ambient block @p ~ ~20 ~ 0.5 2 0.5
 execute as @a[gamemode=survival] run scoreboard players add still_alive lives 1
