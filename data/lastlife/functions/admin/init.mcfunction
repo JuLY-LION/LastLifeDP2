@@ -15,6 +15,7 @@ scoreboard objectives add craftChainLeggings minecraft.crafted:minecraft.chainma
 scoreboard objectives add craftChainPlate minecraft.crafted:minecraft.chainmail_chestplate
 scoreboard objectives add craftChainHelmet minecraft.crafted:minecraft.chainmail_helmet
 scoreboard objectives add aliveTime minecraft.custom:minecraft.time_since_death
+scoreboard objectives add protItemAge dummy
 scoreboard objectives add variable dummy "Dummy Variables"
 scoreboard objectives add admin trigger
 
