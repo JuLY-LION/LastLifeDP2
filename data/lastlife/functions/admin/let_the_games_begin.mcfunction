@@ -1,5 +1,9 @@
 # IT BEGINS!!! Run this to start the first session of Last Life.
 
+scoreboard players set minutesLeft variable 120
+scoreboard players set ticksLeft variable 200
+scoreboard players set activeSession variable 1
+
 gamemode survival @a
 worldborder set 1024 60
 # Modify your worldsize ^here^ (The first number is its size in a diameter)
