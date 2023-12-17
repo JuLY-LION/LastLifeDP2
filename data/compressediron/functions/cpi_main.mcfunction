@@ -1,7 +1,12 @@
 # Replace chainmail helmet with compressed iron varient
 
-execute as @a[nbt={Inventory:[{id:"minecraft:structure_void"}]}] run give @s chainmail_helmet{display:{Name:'{"text":"Iron Helmet","italic":false}',Lore:['{"text":"Compressed","color":"gray","italic":false}']},AttributeModifiers:[{AttributeName:"generic.armor",Name:"generic.armor",Amount:2,Operation:0,UUID:[I;931988793,748964274,-1095440049,-1501373139],Slot:"feet"},{AttributeName:"generic.armor_toughness",Name:"generic.armor_toughness",Amount:2,Operation:0,UUID:[I;566427797,-462860774,-1753365718,1981518112],Slot:"feet"}]} 1
-execute as @a[nbt={Inventory:[{id:"minecraft:structure_void"}]}] run clear @s structure_void 1
+execute as @a[nbt={Inventory:[{id:"minecraft:chainmail_helmet",Slot:103b,tag:{Damage:1}}]}] run tag @s add cpi_helm
+item modify entity @a[tag=cpi_helm] armor.head compressediron:name/helmet
+item modify entity @a[tag=cpi_helm] armor.head compressediron:lore/compressed
+item modify entity @a[tag=cpi_helm] armor.head compressediron:attrib/clear_all
+item modify entity @a[tag=cpi_helm] armor.head compressediron:attrib/helmet
+item modify entity @a[tag=cpi_helm] armor.head compressediron:damage/set98percent
+tag @a[tag=cpi_helm] remove cpi_helm
 
 # Replace chainmail chestplate ..
 
