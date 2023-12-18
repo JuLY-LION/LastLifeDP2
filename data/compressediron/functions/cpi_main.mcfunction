@@ -1,6 +1,7 @@
 # Replace chainmail helmet with compressed iron varient
 
 execute as @a[nbt={Inventory:[{id:"minecraft:chainmail_helmet",Slot:103b,tag:{Damage:1}}]}] run function compressediron:execute/helmet
+execute as @a[nbt={Inventory:[{id:"minecraft:chainmail_helmet",Slot:103b,tag:{Damage:164}}]}] run function compressediron:execute/helmet_scarred
 
 # Replace chainmail chestplate ..
 
