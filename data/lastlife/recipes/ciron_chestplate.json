@@ -1,20 +1,17 @@
 {
     "type": "minecraft:crafting_shaped",
     "pattern": [
-        "iIi",
-        "iii",
-        "iii"
+        "I I",
+        "III",
+        "III"
     ],
     "key": {
-        "i": {
-            "item": "minecraft:iron_ingot"
-        },
         "I": {
-            "item": "minecraft:iron_chestplate"
+            "item": "minecraft:iron_block"
         }
     },
     "result": {
-        "item": "minecraft:purpur_block",
+        "item": "minecraft:chainmail_chestplate",
         "count": 1
     }
 }

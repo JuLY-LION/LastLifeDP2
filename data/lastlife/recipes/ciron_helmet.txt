@@ -1,18 +1,12 @@
 {
     "type": "minecraft:crafting_shaped",
     "pattern": [
-        "#i#",
-        "#W#"
+        "III",
+        "I I"
     ],
     "key": {
-        "#": {
+        "I": {
             "item": "minecraft:iron_block"
-        },
-        "i": {
-            "item": "minecraft:iron_ingot"
-        },
-        "W": {
-            "tag": "minecraft:wool"
         }
     },
     "result": {

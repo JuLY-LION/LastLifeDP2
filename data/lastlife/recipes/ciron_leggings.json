@@ -1,20 +1,17 @@
 {
     "type": "minecraft:crafting_shaped",
     "pattern": [
-        "iii",
-        "iIi",
-        "i i"
+        "III",
+        "I I",
+        "I I"
     ],
     "key": {
-        "i": {
-            "item": "minecraft:iron_ingot"
-        },
         "I": {
-            "item": "minecraft:iron_leggings"
+            "item": "minecraft:iron_block"
         }
     },
     "result": {
-        "item": "minecraft:purpur_stairs",
+        "item": "minecraft:iron_leggings",
         "count": 1
     }
 }

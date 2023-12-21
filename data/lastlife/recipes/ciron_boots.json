@@ -1,19 +1,16 @@
 {
     "type": "minecraft:crafting_shaped",
     "pattern": [
-        "iIi",
-        "i i"
+        "I I",
+        "I I"
     ],
     "key": {
-        "i": {
-            "item": "minecraft:iron_ingot"
-        },
         "I": {
-            "item": "minecraft:iron_boots"
+            "item": "minecraft:iron_block"
         }
     },
     "result": {
-        "item": "minecraft:purpur_slab",
+        "item": "minecraft:chainmail_boots",
         "count": 1
     }
 }
