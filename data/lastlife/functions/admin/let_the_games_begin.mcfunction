@@ -3,6 +3,7 @@
 scoreboard players set minutesLeft variable 120
 scoreboard players set ticksLeft variable 200
 scoreboard players set activeSession variable 1
+scoreboard players enable @a survival
 
 gamemode survival @a
 worldborder set 1024 60
