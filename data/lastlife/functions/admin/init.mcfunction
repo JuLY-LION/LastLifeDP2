@@ -18,6 +18,12 @@ scoreboard objectives add aliveTime minecraft.custom:minecraft.time_since_death
 scoreboard objectives add protItemAge dummy
 scoreboard objectives add variable dummy "Dummy Variables"
 scoreboard objectives add admin trigger
+scoreboard players enable @s admin
+# The above line does not have a typo in the selector. It's supposed to trigger for ONLY the executing player.
+scoreboard objectives add survival trigger
+scoreboard players enable @a survival
+scoreboard objectives add recipes trigger
+scoreboard players enable @a recipes
 
 team add darkGreenName
 team modify darkGreenName color dark_green
