@@ -8,5 +8,5 @@ execute unless score activeSession variable matches 1 run return 0
 
 execute if entity @s[gamemode=spectator] run tellraw @s {"text":"Denied: Nice try loser.","color":"red"}
 
-execute if entity @s[gamemode=survival] run {"text":"You're already in survival mode.","color":"white"}
+execute if entity @s[gamemode=survival] run tellraw @s {"text":"You're already in survival mode.","color":"white"}
 execute if entity @s[gamemode=!spectator] run gamemode survival @s
