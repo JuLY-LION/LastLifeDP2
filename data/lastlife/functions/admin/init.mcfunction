@@ -17,6 +17,7 @@ scoreboard objectives add craftChainHelmet minecraft.crafted:minecraft.chainmail
 scoreboard objectives add aliveTime minecraft.custom:minecraft.time_since_death
 scoreboard objectives add protItemAge dummy
 scoreboard objectives add variable dummy "Dummy Variables"
+scoreboard players set #sub1 variable -1
 scoreboard objectives add admin trigger
 scoreboard players enable @s admin
 # The above line does not have a typo in the selector. It's supposed to trigger for ONLY the executing player.
