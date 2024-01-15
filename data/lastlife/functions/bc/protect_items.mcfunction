@@ -1,6 +1,6 @@
 # comment
 
-execute as @e[type=item,distance=..8,tag=!safeitem] run data merge entity @s {Age:-30000,Invulnerable:1b,Tags:["safeitem"],Item:{}}
+execute as @e[type=item,distance=..8,tag=!safeitem] run data merge entity @s {Age:-30000,PickupDelay:100,Invulnerable:1b,Tags:["safeitem"],Item:{}}
 tp @s ~ ~ ~ ~3 ~0
 scoreboard players add @s protItemAge 1
 
