@@ -34,6 +34,7 @@ team add yellowName
 team modify yellowName color yellow
 team add redName
 team modify redName color red
+team modify redName seeFriendlyInvisibles false
 team add defeated
 team modify defeated prefix {"text":"✖ ","color":"red"}
 team modify defeated displayName {"text":"Defeated","italic":true}
